@@ -1,5 +1,7 @@
 
 using Api.Data;
+using Api.Interfaces;
+using Api.Repository;
 using Microsoft.EntityFrameworkCore;
 
 namespace Api
@@ -17,6 +19,9 @@ namespace Api
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
+
+            builder.Services.AddScoped<IStockRepository, StockRepository>();
+            builder.Services.AddScoped<ICommentRepository, CommentRepository>();
             builder.Services.AddDbContext<AppDBContext>(options =>
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
