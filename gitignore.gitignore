@@ -1,7 +1,4 @@
-*.suo
-*.vsidx
-*.bin
-*.dtbcache.v2
-*.db-wal
-*.db-shm
-*.db
+# Directory irrelevants
+.vs/
+bin/
+obj/
