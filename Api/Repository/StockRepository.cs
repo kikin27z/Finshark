@@ -1,5 +1,6 @@
 ﻿using Api.Data;
 using Api.DTOs.Stock;
+using Api.Helper;
 using Api.Interfaces;
 using Api.Models;
 using Microsoft.EntityFrameworkCore;
@@ -37,10 +38,40 @@ namespace Api.Repository
             return stockModel;
         }
 
-        public async Task<List<Stock>> GetAll()
+        public async Task<List<Stock>> GetAll(QueryObject query)
         {
-            return await _context.Stocks
-                .Include(s => s.Comments).ToListAsync();
+            var stocks = _context.Stocks
+                .Include(s => s.Comments).AsQueryable();
+
+            if(!string.IsNullOrWhiteSpace(query.Symbol))
+            {
+                stocks = stocks.Where(s => s.Symbol.Contains(query.Symbol));
+            }
+
+            if(!string.IsNullOrWhiteSpace(query.CompanyName))
+            {
+                stocks = stocks.Where(s => s.CompanyName.Contains(query.CompanyName));
+            
+            }
+
+            if (!string.IsNullOrWhiteSpace(query.SortingBy))
+            {
+                if(query.SortingBy.Equals("Symbol", StringComparison.OrdinalIgnoreCase))
+                {
+                    stocks = query.Descending ? stocks.OrderByDescending(s => s.Symbol) : stocks.OrderBy(s => s.Symbol);   
+                }
+
+                if(query.SortingBy.Equals("CompanyName", StringComparison.OrdinalIgnoreCase))
+                {
+                    stocks = query.Descending ? stocks.OrderByDescending(s => s.CompanyName) : stocks.OrderBy(s => s.CompanyName);   
+
+                }
+            }
+
+            var skipNumber = (query.NumPage - 1) * query.NumSize;
+            stocks = stocks.Skip(skipNumber).Take(query.NumSize);
+
+            return await stocks.ToListAsync();
                 
         }
 
@@ -48,6 +79,11 @@ namespace Api.Repository
         {
             return await _context.Stocks
                 .Include(s => s.Comments).FirstOrDefaultAsync(x => x.Id == id);
+        }
+
+        public async Task<bool> StockExits(int id)
+        {
+            return await _context.Stocks.AnyAsync(x => x.Id == id);
         }
 
         public async Task<Stock?> UpdateAsync(int id, UpdateStockRequestDTO stockDTO)
