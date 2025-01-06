@@ -38,7 +38,18 @@
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
+    "Parameters": [
+      {
+        "Name": "Symbol",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IsDecsending",
+        "Type": "System.Boolean",
+        "IsRequired": false
+      }
+    ],
     "ReturnTypes": []
   },
   {
@@ -97,20 +108,62 @@
   {
     "ContainingType": "Api.Controllers.CommentController",
     "Method": "Create",
-    "RelativePath": "api/Comment/{stockId}",
+    "RelativePath": "api/Comment/{symbol}",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "stockId",
-        "Type": "System.Int32",
+        "Name": "symbol",
+        "Type": "System.String",
         "IsRequired": true
       },
       {
         "Name": "commentDto",
         "Type": "Api.DTOs.Comment.CreateCommentDTO",
         "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api.Controllers.PortafolioController",
+    "Method": "GetUserPortafolio",
+    "RelativePath": "api/Portafolio",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api.Controllers.PortafolioController",
+    "Method": "AddPortafolio",
+    "RelativePath": "api/Portafolio",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "symbol",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Api.Controllers.PortafolioController",
+    "Method": "Delete",
+    "RelativePath": "api/Portafolio",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "symbol",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

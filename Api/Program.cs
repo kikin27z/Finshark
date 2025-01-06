@@ -106,6 +106,10 @@ namespace Api
             builder.Services.AddScoped<IStockRepository, StockRepository>();
             builder.Services.AddScoped<ICommentRepository, CommentRepository>();
             builder.Services.AddScoped<ITokenService, TokenService>();
+            builder.Services.AddScoped<IPortafolioRepository,PortafolioRepository>();
+            builder.Services.AddScoped<IFMPService,FMPService>();
+            builder.Services.AddHttpClient<IFMPService,FMPService>();
+                
 
             var app = builder.Build();
 
@@ -117,6 +121,15 @@ namespace Api
             }
 
             app.UseHttpsRedirection();
+
+            app.UseCors(x => x
+                .AllowAnyMethod()
+                .AllowAnyHeader()
+                .AllowCredentials()
+                //Here you asign the url that you want to allow
+                //.WithOrigins("https://localhost:44351")
+                .SetIsOriginAllowed(origin => true) // allow any origin
+                );
 
             app.UseAuthentication();
             app.UseAuthorization();

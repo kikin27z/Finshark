@@ -94,15 +94,19 @@ namespace Api.Migrations
 
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("AppUserId")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.Property<string>("Content")
                         .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<DateTime>("CreatedOn")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<DateTime?>("ModifiedOn")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<int?>("StockId")
                         .HasColumnType("integer");
@@ -113,9 +117,26 @@ namespace Api.Migrations
 
                     b.HasKey("Id");
 
+                    b.HasIndex("AppUserId");
+
                     b.HasIndex("StockId");
 
                     b.ToTable("Comments");
+                });
+
+            modelBuilder.Entity("Api.Models.Portafolio", b =>
+                {
+                    b.Property<string>("AppUserId")
+                        .HasColumnType("text");
+
+                    b.Property<int>("StockId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("AppUserId", "StockId");
+
+                    b.HasIndex("StockId");
+
+                    b.ToTable("Portafolios");
                 });
 
             modelBuilder.Entity("Api.Models.Stock", b =>
@@ -180,13 +201,13 @@ namespace Api.Migrations
                     b.HasData(
                         new
                         {
-                            Id = "41a8b88a-2c20-498d-a7cd-fb9ec3d51c88",
+                            Id = "bb956318-ac9b-4bef-9d77-d0084f31b3f3",
                             Name = "Admin",
                             NormalizedName = "ADMIN"
                         },
                         new
                         {
-                            Id = "669b71ec-8bb8-419e-9086-fe08fd3e8827",
+                            Id = "b2945484-b33f-4d07-b890-4f93221723db",
                             Name = "User",
                             NormalizedName = "USER"
                         });
@@ -300,9 +321,36 @@ namespace Api.Migrations
 
             modelBuilder.Entity("Api.Models.Comment", b =>
                 {
+                    b.HasOne("Api.Models.AppUser", "AppUser")
+                        .WithMany()
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("Api.Models.Stock", "Stock")
                         .WithMany("Comments")
                         .HasForeignKey("StockId");
+
+                    b.Navigation("AppUser");
+
+                    b.Navigation("Stock");
+                });
+
+            modelBuilder.Entity("Api.Models.Portafolio", b =>
+                {
+                    b.HasOne("Api.Models.AppUser", "AppUser")
+                        .WithMany("Portafolios")
+                        .HasForeignKey("AppUserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("Api.Models.Stock", "Stock")
+                        .WithMany("Portafolios")
+                        .HasForeignKey("StockId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("AppUser");
 
                     b.Navigation("Stock");
                 });
@@ -358,9 +406,16 @@ namespace Api.Migrations
                         .IsRequired();
                 });
 
+            modelBuilder.Entity("Api.Models.AppUser", b =>
+                {
+                    b.Navigation("Portafolios");
+                });
+
             modelBuilder.Entity("Api.Models.Stock", b =>
                 {
                     b.Navigation("Comments");
+
+                    b.Navigation("Portafolios");
                 });
 #pragma warning restore 612, 618
         }
