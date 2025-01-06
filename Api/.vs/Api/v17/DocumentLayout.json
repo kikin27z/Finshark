@@ -3,60 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|c:\\users\\karim\\documents\\github\\finshark\\api\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|c:\\users\\karim\\documents\\github\\finshark\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|c:\\users\\karim\\documents\\github\\finshark\\api\\mappers\\stockmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|solutionrelative:mappers\\stockmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|c:\\users\\karim\\documents\\github\\finshark\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|c:\\users\\karim\\documents\\github\\finshark\\api\\repository\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|solutionrelative:repository\\stockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|c:\\users\\karim\\documents\\github\\finshark\\api\\dtos\\stock\\stockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|solutionrelative:dtos\\stock\\stockdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|c:\\users\\karim\\documents\\github\\finshark\\api\\mappers\\commentmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|solutionrelative:mappers\\commentmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|c:\\users\\karim\\documents\\github\\finshark\\api\\dtos\\comment\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|solutionrelative:dtos\\comment\\commentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|c:\\users\\karim\\documents\\github\\finshark\\api\\controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|solutionrelative:controllers\\commentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|c:\\users\\karim\\documents\\github\\finshark\\api\\repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|solutionrelative:repository\\commentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|c:\\users\\karim\\documents\\github\\finshark\\api\\interfaces\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|solutionrelative:interfaces\\icommentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|c:\\users\\karim\\documents\\github\\finshark\\api\\models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|solutionrelative:models\\comment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|c:\\users\\karim\\documents\\github\\finshark\\api\\interfaces\\istockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|solutionrelative:interfaces\\istockrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|c:\\users\\karim\\documents\\github\\finshark\\api\\controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|solutionrelative:controllers\\stockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|c:\\users\\karim\\documents\\github\\finshark\\api\\dtos\\stock\\updatestockrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|solutionrelative:dtos\\stock\\updatestockrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|c:\\users\\karim\\documents\\github\\finshark\\api\\dtos\\stock\\createstockrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|solutionrelative:dtos\\stock\\createstockrequestdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|c:\\users\\karim\\documents\\github\\finshark\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{36A025CC-75E2-4621-BA37-BF693EF547E8}|Api.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,188 +26,57 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CommentDTO.cs",
-              "DocumentMoniker": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\DTOs\\Comment\\CommentDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\Comment\\CommentDTO.cs",
-              "ToolTip": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\DTOs\\Comment\\CommentDTO.cs",
-              "RelativeToolTip": "DTOs\\Comment\\CommentDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T02:26:28.565Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "CommentMapper.cs",
-              "DocumentMoniker": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\Mappers\\CommentMapper.cs",
-              "RelativeDocumentMoniker": "Mappers\\CommentMapper.cs",
-              "ToolTip": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\Mappers\\CommentMapper.cs",
-              "RelativeToolTip": "Mappers\\CommentMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T02:25:56.892Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "CommentController.cs",
-              "DocumentMoniker": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\Controllers\\CommentController.cs",
-              "RelativeDocumentMoniker": "Controllers\\CommentController.cs",
-              "ToolTip": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\Controllers\\CommentController.cs",
-              "RelativeToolTip": "Controllers\\CommentController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAwCIAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T02:21:36.48Z",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-05T23:48:44.532Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "StockDTO.cs",
-              "DocumentMoniker": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\DTOs\\Stock\\StockDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\Stock\\StockDTO.cs",
-              "ToolTip": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\DTOs\\Stock\\StockDTO.cs",
-              "RelativeToolTip": "DTOs\\Stock\\StockDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAfAAAAAAAAAA==",
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-05T23:12:34.328Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T21:42:34.654Z",
+              "WhenOpened": "2025-01-05T23:11:31.039Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StockMapper.cs",
-              "DocumentMoniker": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\Mappers\\StockMapper.cs",
-              "RelativeDocumentMoniker": "Mappers\\StockMapper.cs",
-              "ToolTip": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\Mappers\\StockMapper.cs",
-              "RelativeToolTip": "Mappers\\StockMapper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T21:43:36.137Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StockRepository.cs",
-              "DocumentMoniker": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\Repository\\StockRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\StockRepository.cs",
-              "ToolTip": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\Repository\\StockRepository.cs",
-              "RelativeToolTip": "Repository\\StockRepository.cs",
-              "ViewState": "AgIAABgAAAAAAAAAAAAYwDEAAABLAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T01:09:41.22Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAuwBIAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAUwFoAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T01:18:58.644Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ICommentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\Interfaces\\ICommentRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\ICommentRepository.cs",
-              "ToolTip": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\Interfaces\\ICommentRepository.cs",
-              "RelativeToolTip": "Interfaces\\ICommentRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T01:38:51.419Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "CommentRepository.cs",
-              "DocumentMoniker": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\Repository\\CommentRepository.cs",
-              "RelativeDocumentMoniker": "Repository\\CommentRepository.cs",
-              "ToolTip": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\Repository\\CommentRepository.cs",
-              "RelativeToolTip": "Repository\\CommentRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAA5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T01:39:18.024Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Comment.cs",
-              "DocumentMoniker": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\Models\\Comment.cs",
-              "RelativeDocumentMoniker": "Models\\Comment.cs",
-              "ToolTip": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\Models\\Comment.cs",
-              "RelativeToolTip": "Models\\Comment.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T01:07:20.447Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IStockRepository.cs",
-              "DocumentMoniker": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\Interfaces\\IStockRepository.cs",
-              "RelativeDocumentMoniker": "Interfaces\\IStockRepository.cs",
-              "ToolTip": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\Interfaces\\IStockRepository.cs",
-              "RelativeToolTip": "Interfaces\\IStockRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-02T01:08:27.12Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "CreateStockRequestDTO.cs",
-              "DocumentMoniker": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\DTOs\\Stock\\CreateStockRequestDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\Stock\\CreateStockRequestDTO.cs",
-              "ToolTip": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\DTOs\\Stock\\CreateStockRequestDTO.cs",
-              "RelativeToolTip": "DTOs\\Stock\\CreateStockRequestDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T21:42:25.406Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "StockController.cs",
-              "DocumentMoniker": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\Controllers\\StockController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StockController.cs",
-              "ToolTip": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\Controllers\\StockController.cs",
-              "RelativeToolTip": "Controllers\\StockController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T21:35:54.661Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UpdateStockRequestDTO.cs",
-              "DocumentMoniker": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\DTOs\\Stock\\UpdateStockRequestDTO.cs",
-              "RelativeDocumentMoniker": "DTOs\\Stock\\UpdateStockRequestDTO.cs",
-              "ToolTip": "C:\\Users\\karim\\Documents\\GitHub\\Finshark\\Api\\DTOs\\Stock\\UpdateStockRequestDTO.cs",
-              "RelativeToolTip": "DTOs\\Stock\\UpdateStockRequestDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-01T22:16:52.502Z",
+              "WhenOpened": "2025-01-05T23:03:33.853Z",
               "EditorCaption": ""
             }
           ]
